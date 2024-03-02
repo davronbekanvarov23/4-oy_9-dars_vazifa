@@ -29,56 +29,56 @@
 
 /*-------------------------------Methods---------------------*/
 
-// const movies = [
-//   {
-//     name: "Spider man",
-//     year: 2023,
-//     rate: 8.8,
-//     genre: ["Anvanture", "Action", "Comedy"],
-//     country: ["United States"],
-//     isAdult: false,
-//   },
-//   {
-//     name: "The Godfather",
-//     year: 1972,
-//     rate: 9.2,
-//     genre: ["Mafia", "Crime film", "Drama"],
-//     country: ["United States", "Italy"],
-//     isAdult: true,
-//   },
-//   {
-//     name: "T - 34",
-//     year: 2014,
-//     rate: 5.9,
-//     genre: ["Advanture", "Drama", "War", "Action"],
-//     country: ["Russia"],
-//     isAdult: true,
-//   },
-//   {
-//     name: "Parasite",
-//     year: 2019,
-//     rate: 7.5,
-//     genre: ["Advanture", "Drama", "War", "Action"],
-//     country: ["South Korea"],
-//     isAdult: true,
-//   },
-//   {
-//     name: "Paddington",
-//     year: 2014,
-//     rate: 4.5,
-//     genre: ["Advanture", "Fantasy", "Animation", "Comedy"],
-//     country: ["France", "England"],
-//     isAdult: false,
-//   },
-//   {
-//     name: "Titanic",
-//     year: 1997,
-//     rate: 7.5,
-//     genre: ["Advanture", "Fantasy", "Thriller", "Comedy"],
-//     country: ["United States", "England"],
-//     isAdult: true,
-//   },
-// ];
+const movies = [
+  {
+    name: "Spider man",
+    year: 2023,
+    rate: 8.8,
+    genre: ["Anvanture", "Action", "Comedy"],
+    country: ["United States"],
+    isAdult: false,
+  },
+  {
+    name: "The Godfather",
+    year: 1972,
+    rate: 9.2,
+    genre: ["Mafia", "Crime film", "Drama"],
+    country: ["United States", "Italy"],
+    isAdult: true,
+  },
+  {
+    name: "T - 34",
+    year: 2014,
+    rate: 5.9,
+    genre: ["Advanture", "Drama", "War", "Action"],
+    country: ["Russia"],
+    isAdult: true,
+  },
+  {
+    name: "Parasite",
+    year: 2019,
+    rate: 7.5,
+    genre: ["Advanture", "Drama", "War", "Action"],
+    country: ["South Korea"],
+    isAdult: true,
+  },
+  {
+    name: "Paddington",
+    year: 2014,
+    rate: 4.5,
+    genre: ["Advanture", "Fantasy", "Animation", "Comedy"],
+    country: ["France", "England"],
+    isAdult: false,
+  },
+  {
+    name: "Titanic",
+    year: 1997,
+    rate: 7.5,
+    genre: ["Advanture", "Fantasy", "Thriller", "Comedy"],
+    country: ["United States", "England"],
+    isAdult: true,
+  },
+];
 
 // FOR
 // for (let i = 0; i < movies.length; i++) {
@@ -102,3 +102,15 @@
 // });
 // console.log(everyMovies);
 
+// const moviesUpto6 = [];
+// for (let i = 0; i < movies.length; i++) {
+//   if (movies[i].rate >= 6 && movies[i].rate<=8) {
+//     moviesUpto6.push(movies[i]);
+//   }
+// }
+// console.log(moviesUpto6)
+
+// const moviesUpto6 = movies.filter((movie) => {
+//   return movie.rate >= 6 && movie.rate <= 8;
+// });
+// console.log(moviesUpto6);
